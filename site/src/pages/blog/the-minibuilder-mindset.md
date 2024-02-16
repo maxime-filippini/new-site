@@ -3,8 +3,8 @@ title: Embracing the Minibuilder mindset
 emoji:
 slug: embracing-the-minibuilder-mindset
 tags: [mindset]
-publish_date: 2022-09-26T21:07:11.000Z
-update_date: 2022-10-02T14:57:32.000Z
+publish_date: 2022-09-26
+update_date: 2022-10-02
 image: http://source.unsplash.com/XJXWbfSo2f0
 image_attribution: http://www.unsplash.com
 draft: false

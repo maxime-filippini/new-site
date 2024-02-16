@@ -5,9 +5,16 @@
         <meta name="keywords" content="{{ keywords }}">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+        <script type="text/javascript" src="static/katex.js"></script>
+        <link rel="stylesheet" type="text/css" href="static/global.css">
+        <link rel="stylesheet" type="text/css" href="static/extra.css">
         <title>{{ title }}</title>
     </head>
-    <body>
+    <body class="container mx-auto bg-violet-100">
         {% block content %}
         {% endblock content %}
     </body>

@@ -1,5 +1,5 @@
 {% extends "layout.html" %}
 {% block content %}
     <h1>{{ title }}</h1>
-    <article>{{ article_contents }}</article>
+    <article>{{ article_contents|safe }}</article>
 {% endblock content %}

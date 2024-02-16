@@ -16,3 +16,4 @@ class BlogPostMetadata(BaseModel):
     image_attribution: str
     draft: bool
     post_summary: str
+    template: str
